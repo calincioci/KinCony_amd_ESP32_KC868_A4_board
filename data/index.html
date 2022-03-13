@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+   <head>
+      <title>ESP32 board KinCony</title>
+      <link rel="stylesheet" href='../static/style.css'/>
+<!--      <meta http-equiv="refresh" content="20;url=/"> -->
+      <meta http-equiv="refresh" content="100;url=/">
+      <style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #63FF33;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #FF3333;} /* Red */
+.button4 {background-color: #FFD833;} /* Amber */
+</style>
+   </head>
+   <body>
+      <h1>ESP32 board KinCony</h1>	
+      <a href="/" class="button button4">HOME</a>
+    <h2>Relay1</h2>
+	<a href="/relay1_on" class="button button2">TURN ON</a>
+	<a href="/relay1_off" class="button button3">TURN OFF</a>
+	<h2>Relay2</h2>
+	<a href="/relay2_on" class="button button2">TURN ON</a>
+	<a href="/relay2_off" class="button button3">TURN OFF</a>
+	<h2>Relay3</h2>	
+	<a href="/relay3_on" class="button button2">TURN ON</a>
+	<a href="/relay3_off" class="button button3">TURN OFF</a>
+    <h2>Relay4</h2>	
+    <a href="/relay4_on" class="button button2">TURN ON</a>
+	<a href="/relay4_off" class="button button3">TURN OFF</a>
+    <!--<h2>Analog :    {{ adc_str }}  &#8451</h2>-->
+		
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNumber").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+      
+      
+      
+   </body>
+</html>
