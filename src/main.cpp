@@ -9,8 +9,8 @@ AsyncWebServer server(80);
 
 
 // Replace with your network credentials
-const char* ssid = "BTHub5-NFR5";
-const char* password = "c3292eebb3";
+const char* ssid = "xxxxxxx";
+const char* password = "yyyyyyy";
 
 // Variable to store the HTTP request
 String header;
